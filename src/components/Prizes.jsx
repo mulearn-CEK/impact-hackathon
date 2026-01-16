@@ -120,6 +120,12 @@ function Prizes() {
                             </div>
                             <span className="text-gray-400 text-sm font-medium">Commune WNH</span>
                         </div>
+                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
+                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center p-2">
+                                <img src="/kdisc_logo.png" alt="K-DISC Logo" className="w-full h-full object-contain" />
+                            </div>
+                            <span className="text-gray-400 text-sm font-medium">K-DISC</span>
+                        </div>
                     </div>
                 </div>
             </div>
