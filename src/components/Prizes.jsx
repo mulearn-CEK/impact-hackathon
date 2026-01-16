@@ -95,36 +95,12 @@ function Prizes() {
                 {/* Powered By Section */}
                 <div className="mt-24 text-center">
                     <span className="text-gray-500 text-xs font-bold tracking-[0.2em] uppercase mb-8 block">Powered By</span>
-                    <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
-                                <span className="material-symbols-outlined text-primary text-3xl">hub</span>
-                            </div>
-                            <span className="text-gray-400 text-sm font-medium">μlearn</span>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
-                                <span className="material-symbols-outlined text-teal-500 text-3xl">account_balance</span>
-                            </div>
-                            <span className="text-gray-400 text-sm font-medium">Kottarakkara Municipality</span>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
-                                <span className="material-symbols-outlined text-fuchsia-500 text-3xl">psychology</span>
-                            </div>
-                            <span className="text-gray-400 text-sm font-medium">Kerala AI Mission</span>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
-                                <span className="material-symbols-outlined text-blue-500 text-3xl">apartment</span>
-                            </div>
-                            <span className="text-gray-400 text-sm font-medium">Commune WNH</span>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center p-2">
+                    <div className="flex justify-center items-center">
+                        <div className="flex flex-col items-center gap-4">
+                            <div className="w-48 h-24 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center p-4">
                                 <img src="/kdisc_logo.png" alt="K-DISC Logo" className="w-full h-full object-contain" />
                             </div>
-                            <span className="text-gray-400 text-sm font-medium">K-DISC</span>
+                            <span className="text-gray-400 text-sm font-medium">Kerala Development and Innovation Strategic Council</span>
                         </div>
                     </div>
                 </div>
