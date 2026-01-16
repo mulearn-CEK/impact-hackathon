@@ -91,6 +91,37 @@ function Prizes() {
                         </ul>
                     </div>
                 </div>
+
+                {/* Powered By Section */}
+                <div className="mt-24 text-center">
+                    <span className="text-gray-500 text-xs font-bold tracking-[0.2em] uppercase mb-8 block">Powered By</span>
+                    <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
+                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
+                                <span className="material-symbols-outlined text-primary text-3xl">hub</span>
+                            </div>
+                            <span className="text-gray-400 text-sm font-medium">μlearn</span>
+                        </div>
+                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
+                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
+                                <span className="material-symbols-outlined text-teal-500 text-3xl">account_balance</span>
+                            </div>
+                            <span className="text-gray-400 text-sm font-medium">Kottarakkara Municipality</span>
+                        </div>
+                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
+                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
+                                <span className="material-symbols-outlined text-fuchsia-500 text-3xl">psychology</span>
+                            </div>
+                            <span className="text-gray-400 text-sm font-medium">Kerala AI Mission</span>
+                        </div>
+                        <div className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
+                            <div className="w-16 h-16 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
+                                <span className="material-symbols-outlined text-blue-500 text-3xl">apartment</span>
+                            </div>
+                            <span className="text-gray-400 text-sm font-medium">Commune WNH</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );
