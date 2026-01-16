@@ -25,8 +25,8 @@ function ChallengeCard({ challenge, onClick, theme = 'lsg' }) {
                     <span className="material-symbols-outlined" style={{ fontSize: '32px' }}>{challenge.icon}</span>
                 </div>
                 <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${challenge.difficulty === 'Medium'
-                        ? 'bg-yellow-500/10 border border-yellow-500/20 text-yellow-400'
-                        : 'bg-red-500/10 border border-red-500/20 text-red-400'
+                    ? 'bg-yellow-500/10 border border-yellow-500/20 text-yellow-400'
+                    : 'bg-red-500/10 border border-red-500/20 text-red-400'
                     }`}>
                     {challenge.difficulty}
                 </span>
@@ -46,9 +46,13 @@ function ChallengeCard({ challenge, onClick, theme = 'lsg' }) {
             <div className="pt-4 mt-auto z-10 border-t border-white/5">
                 <button
                     onClick={onClick}
-                    className={`w-full flex items-center justify-center gap-2 font-bold py-2.5 px-4 rounded-lg transition-colors text-sm ${challenge.featured || isAI
-                            ? 'bg-primary hover:bg-primary-dark text-white'
-                            : 'bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white'
+                    className={`w-full flex items-center justify-center gap-2 font-bold py-2.5 px-4 rounded-lg transition-all text-sm ${isAI
+                            ? challenge.featured
+                                ? 'bg-gradient-to-r from-fuchsia-600 to-blue-600 hover:from-fuchsia-500 hover:to-blue-500 text-white shadow-[0_0_15px_rgba(217,70,239,0.3)]'
+                                : 'bg-fuchsia-500/10 border border-fuchsia-500/30 text-fuchsia-400 hover:bg-fuchsia-500 hover:text-white'
+                            : challenge.featured
+                                ? 'bg-teal-500 hover:bg-teal-600 text-white shadow-[0_0_15px_rgba(20,184,166,0.3)]'
+                                : 'bg-teal-500/10 border border-teal-500/30 text-teal-400 hover:bg-teal-500 hover:text-white'
                         }`}
                 >
                     View Details
