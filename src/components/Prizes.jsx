@@ -95,19 +95,9 @@ function Prizes() {
                 {/* Powered By Section */}
                 <div className="mt-24 text-center">
                     <span className="text-gray-500 text-xs font-bold tracking-[0.2em] uppercase mb-8 block">Powered By</span>
-                    <div className="flex justify-center items-center gap-12">
-                        <div className="flex flex-col items-center gap-4">
-                            <div className="w-48 h-24 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center p-4">
-                                <img src="/kdisc_logo.png" alt="K-DISC Logo" className="w-full h-full object-contain" />
-                            </div>
-                            <span className="text-gray-400 text-sm font-medium">K-DISC</span>
-                        </div>
-                        <div className="flex flex-col items-center gap-4">
-                            <div className="w-48 h-24 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center p-4">
-                                <img src="/partner_logo_2.png" alt="Partner Logo" className="w-full h-full object-contain" />
-                            </div>
-                            <span className="text-gray-400 text-sm font-medium">Kerala Startup Mission</span>
-                        </div>
+                    <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-80 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/kdisc_logo.png" alt="K-DISC" className="h-16 md:h-20 w-auto object-contain brightness-0 invert opacity-80 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-300" />
+                        <img src="/partner_logo_2.png" alt="Kerala Startup Mission" className="h-16 md:h-20 w-auto object-contain brightness-0 invert opacity-80 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-300" />
                     </div>
                 </div>
             </div>
