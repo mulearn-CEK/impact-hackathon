@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -138,9 +139,9 @@ function SchedulePage() {
                         <p className="text-gray-400 mb-8 max-w-lg mx-auto">
                             Secure your spot and be part of Kottarakkara's biggest hackathon event!
                         </p>
-                        <button className="bg-primary hover:bg-cyan-300 text-background-dark text-lg font-bold py-4 px-10 rounded-xl transition-all shadow-[0_0_20px_rgba(0,210,230,0.3)] hover:shadow-[0_0_30px_rgba(0,210,230,0.6)]">
+                        <Link to="/register" className="inline-block bg-primary hover:bg-cyan-300 text-background-dark text-lg font-bold py-4 px-10 rounded-xl transition-all shadow-[0_0_20px_rgba(0,210,230,0.3)] hover:shadow-[0_0_30px_rgba(0,210,230,0.6)]">
                             Register Now
-                        </button>
+                        </Link>
                     </div>
                 </section>
             </main>

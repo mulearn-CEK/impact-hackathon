@@ -81,12 +81,12 @@ function Header() {
                 </div>
 
                 {/* Register Button */}
-                <button className="hidden md:flex group relative items-center gap-2 bg-primary hover:bg-primary-dark text-black text-xs font-bold py-2.5 px-5 rounded-full transition-all shadow-[0_0_20px_rgba(0,210,230,0.3)] overflow-hidden">
-                    <span className="relative z-10 flex items-center gap-1">
-                        Register Now
-                        <span className="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
-                    </span>
-                </button>
+                <Link
+                    to="/register"
+                    className="hidden md:flex bg-primary hover:bg-primary-dark text-black text-xs font-bold py-2.5 px-5 rounded-full transition-all shadow-[0_0_20px_rgba(0,210,230,0.3)] overflow-hidden"
+                >
+                    Register Now
+                </Link>
 
                 {/* Mobile Menu Button */}
                 <button className="md:hidden text-white p-2">
