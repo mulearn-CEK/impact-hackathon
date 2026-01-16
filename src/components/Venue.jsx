@@ -10,10 +10,10 @@ function Venue() {
                             <span className="text-white font-bold tracking-wide uppercase">Venue Location</span>
                         </div>
                         <h3 className="text-3xl font-bold font-display text-white mb-4">
-                            College of Engineering<br />Kottarakkara
+                            Commune - Work Near Home<br />Kottarakkara
                         </h3>
                         <p className="text-gray-400 max-w-md mb-8">
-                            The hub of innovation in the district. Join us at the new CS Block seminar hall for the event.
+                            The hub of innovation in the district. Join us at the Commune co-working space for the event.
                         </p>
                         <div className="flex flex-col gap-4">
                             <div className="flex items-center gap-4 p-4 rounded-lg bg-[#1a1d21] border border-gray-800">
@@ -62,7 +62,7 @@ function Venue() {
                             <div className="w-4 h-4 bg-primary rounded-full relative z-10 border-2 border-white"></div>
                         </div>
                         <div className="bg-black/80 text-white text-xs px-3 py-1 rounded backdrop-blur-sm border border-gray-700">
-                            CEK Campus
+                            Commune WNH
                         </div>
                     </div>
 
