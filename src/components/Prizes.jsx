@@ -47,7 +47,7 @@ function Prizes() {
                         </div>
                         <div className="flex flex-col gap-1 mb-8">
                             <span className="text-5xl font-bold font-display text-white tracking-tight">₹10,000</span>
-                            <span className="text-primary text-base font-medium">Cash Prize + Grand Trophy</span>
+                            <span className="text-primary text-base font-medium">Cash Prize</span>
                         </div>
                         <ul className="space-y-4">
                             <li className="flex items-center gap-3 text-base text-white">
