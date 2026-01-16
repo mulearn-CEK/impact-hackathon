@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Custom properties and config integrated with Tailwind */
+@theme {
+  --color-primary: #00d2e6;
+  --color-primary-dark: #00aab8;
+  --color-secondary-green: #10b981;
+  --color-secondary-magenta: #d946ef;
+  --color-background-light: #f1f2f4;
+  --color-background-dark: #131316;
+  --color-background-card: #1e1e24;
+  --color-border-subtle: #2e2e36;
+  
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Manrope", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
+
+.grid-bg {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, #2e2e36 1px, transparent 1px), 
+                    linear-gradient(to bottom, #2e2e36 1px, transparent 1px);
+  mask-image: linear-gradient(to bottom, transparent, 10%, black, 90%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, 5%, black, 80%, transparent);
+}
+
+.neon-glow-primary {
+  box-shadow: 0 0 15px rgba(0, 210, 230, 0.25);
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 20px rgba(0, 210, 230, 0.4);
+  border-color: rgba(0, 210, 230, 0.6);
+}
