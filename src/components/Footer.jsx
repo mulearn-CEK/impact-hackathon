@@ -59,7 +59,7 @@ function Footer() {
 
                 {/* Bottom Bar */}
                 <div className="flex justify-center items-center pt-8 border-t border-white/5">
-                    <span className="text-xs text-gray-600 font-medium">© 2026 MuLearn CEK</span>
+                    <span className="text-xs text-gray-600 font-medium">© 2026 μlearn CEK</span>
                 </div>
             </div>
         </footer>
