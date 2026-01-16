@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Home from './pages/Home';
@@ -5,6 +6,8 @@ import Day1 from './pages/Day1';
 import Day2 from './pages/Day2';
 import SchedulePage from './pages/Schedule';
 import RegisterPage from './pages/Register';
+import HelpCenter from './pages/HelpCenter';
+import Team from './pages/Team';
 import MouseHalo from './components/MouseHalo';
 
 function App() {
@@ -18,6 +21,8 @@ function App() {
           <Route path="/day2" element={<Day2 />} />
           <Route path="/schedule" element={<SchedulePage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/help-center" element={<HelpCenter />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </div>
     </BrowserRouter>

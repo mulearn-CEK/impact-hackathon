@@ -9,15 +9,13 @@ function Footer() {
                 {/* Links Section */}
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-10 lg:gap-8 mb-16">
                     <div className="flex flex-col gap-6">
-                        <h4 className="text-white font-bold text-xs uppercase tracking-[0.15em] opacity-40">Events</h4>
+                        <h4 className="text-white font-bold text-xs uppercase tracking-[0.15em] opacity-40">Resources</h4>
                         <div className="flex flex-col gap-4">
-                            <Link to="/day1" className="text-gray-400 hover:text-primary text-sm font-medium transition-colors hover:translate-x-1 duration-300">Day 1: LSG</Link>
-                            <Link to="/day2" className="text-gray-400 hover:text-primary text-sm font-medium transition-colors hover:translate-x-1 duration-300">Day 2: AI</Link>
                             <Link to="/schedule" className="text-gray-400 hover:text-primary text-sm font-medium transition-colors hover:translate-x-1 duration-300">Schedule</Link>
                         </div>
                     </div>
                     <div className="flex flex-col gap-6">
-                        <h4 className="text-white font-bold text-xs uppercase tracking-[0.15em] opacity-40">Resources</h4>
+                        <h4 className="text-white font-bold text-xs uppercase tracking-[0.15em] opacity-40">Quick Links</h4>
                         <div className="flex flex-col gap-4">
                             <a className="text-gray-400 hover:text-primary text-sm font-medium transition-colors hover:translate-x-1 duration-300" href="#">Code of Conduct</a>
                             <a className="text-gray-400 hover:text-primary text-sm font-medium transition-colors hover:translate-x-1 duration-300" href="#">Dev Guide</a>
@@ -26,7 +24,7 @@ function Footer() {
                     <div className="flex flex-col gap-6">
                         <h4 className="text-white font-bold text-xs uppercase tracking-[0.15em] opacity-40">Contact</h4>
                         <div className="flex flex-col gap-4">
-                            <a className="text-gray-400 hover:text-primary text-sm font-medium transition-colors hover:translate-x-1 duration-300" href="#">Help Center</a>
+                            <Link to="/help-center" className="text-gray-400 hover:text-primary text-sm font-medium transition-colors hover:translate-x-1 duration-300">Help Center</Link>
                             <a className="text-gray-400 hover:text-primary text-sm font-medium transition-colors hover:translate-x-1 duration-300" href="#">Partnerships</a>
                         </div>
                     </div>
