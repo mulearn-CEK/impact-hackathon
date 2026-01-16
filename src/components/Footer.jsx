@@ -58,13 +58,8 @@ function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 gap-4">
-                    <div className="flex flex-wrap justify-center md:justify-start gap-6 text-xs text-gray-500">
-                        <a className="hover:text-white transition-colors font-medium" href="#">Privacy Policy</a>
-                        <a className="hover:text-white transition-colors font-medium" href="#">Terms of Service</a>
-                        <span className="text-gray-700 hidden md:block">|</span>
-                        <span className="text-gray-600 font-medium">© 2026 MuLearn CEK</span>
-                    </div>
+                <div className="flex justify-center items-center pt-8 border-t border-white/5">
+                    <span className="text-xs text-gray-600 font-medium">© 2026 MuLearn CEK</span>
                 </div>
             </div>
         </footer>
