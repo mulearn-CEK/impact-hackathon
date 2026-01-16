@@ -95,12 +95,18 @@ function Prizes() {
                 {/* Powered By Section */}
                 <div className="mt-24 text-center">
                     <span className="text-gray-500 text-xs font-bold tracking-[0.2em] uppercase mb-8 block">Powered By</span>
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center gap-12">
                         <div className="flex flex-col items-center gap-4">
                             <div className="w-48 h-24 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center p-4">
                                 <img src="/kdisc_logo.png" alt="K-DISC Logo" className="w-full h-full object-contain" />
                             </div>
-                            <span className="text-gray-400 text-sm font-medium">Kerala Development and Innovation Strategic Council</span>
+                            <span className="text-gray-400 text-sm font-medium">K-DISC</span>
+                        </div>
+                        <div className="flex flex-col items-center gap-4">
+                            <div className="w-48 h-24 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center p-4">
+                                <img src="/partner_logo_2.png" alt="Partner Logo" className="w-full h-full object-contain" />
+                            </div>
+                            <span className="text-gray-400 text-sm font-medium">Kerala Startup Mission</span>
                         </div>
                     </div>
                 </div>
