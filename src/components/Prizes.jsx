@@ -30,10 +30,7 @@ function Prizes() {
                                 <span className="material-symbols-outlined text-secondary-magenta text-[18px]">check_circle</span>
                                 Certificate of Excellence
                             </li>
-                            <li className="flex items-center gap-3 text-sm text-gray-300">
-                                <span className="material-symbols-outlined text-secondary-magenta text-[18px]">check_circle</span>
-                                Pro License
-                            </li>
+
                         </ul>
                     </div>
 
