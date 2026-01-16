@@ -147,77 +147,7 @@ function Day2() {
                 </div>
             </section>
 
-            {/* Deliverables Section */}
-            <section className="py-20 px-6 bg-black/20 relative">
-                <div className="max-w-4xl mx-auto">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl font-display font-bold mb-4">System Deliverables</h2>
-                        <p className="text-gray-400 max-w-lg mx-auto">Your submission will be evaluated based on the integrity of the code, the viability of the model, and the user experience.</p>
-                    </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div className="space-y-4">
-                            <div className="flex items-start gap-4 p-4 rounded-xl bg-[rgba(19,19,22,0.6)] backdrop-blur-xl border border-white/[0.08]">
-                                <span className="material-symbols-outlined text-fuchsia-500 mt-1">code_blocks</span>
-                                <div>
-                                    <h4 className="font-bold text-white">Functional Prototype</h4>
-                                    <p className="text-sm text-gray-400 mt-1">A working MVP deployed on a local server or cloud instance. Static mockups will not be accepted.</p>
-                                </div>
-                            </div>
-                            <div className="flex items-start gap-4 p-4 rounded-xl bg-[rgba(19,19,22,0.6)] backdrop-blur-xl border border-white/[0.08]">
-                                <span className="material-symbols-outlined text-fuchsia-500 mt-1">dataset</span>
-                                <div>
-                                    <h4 className="font-bold text-white">Data Pipeline Documentation</h4>
-                                    <p className="text-sm text-gray-400 mt-1">Clear documentation of data sources, cleaning methods, and model training parameters.</p>
-                                </div>
-                            </div>
-                            <div className="flex items-start gap-4 p-4 rounded-xl bg-[rgba(19,19,22,0.6)] backdrop-blur-xl border border-white/[0.08]">
-                                <span className="material-symbols-outlined text-fuchsia-500 mt-1">verified_user</span>
-                                <div>
-                                    <h4 className="font-bold text-white">Privacy Impact Assessment</h4>
-                                    <p className="text-sm text-gray-400 mt-1">A brief report outlining potential privacy risks and mitigation strategies used.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="p-8 rounded-xl bg-[rgba(19,19,22,0.6)] backdrop-blur-xl border border-white/[0.08] flex flex-col justify-center relative">
-                            <h3 className="text-lg font-bold mb-6 text-center border-b border-white/10 pb-4">Scoring Algorithm</h3>
-                            <div className="space-y-6">
-                                <div>
-                                    <div className="flex justify-between text-sm mb-2">
-                                        <span className="text-white">Technical Complexity</span>
-                                        <span className="text-primary font-mono">40%</span>
-                                    </div>
-                                    <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                                        <div className="h-full bg-gradient-to-r from-primary to-cyan-600 w-[40%] shadow-[0_0_10px_rgba(0,210,230,0.5)]"></div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className="flex justify-between text-sm mb-2">
-                                        <span className="text-white">Innovation & Impact</span>
-                                        <span className="text-fuchsia-500 font-mono">35%</span>
-                                    </div>
-                                    <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                                        <div className="h-full bg-gradient-to-r from-fuchsia-500 to-purple-600 w-[35%] shadow-[0_0_10px_rgba(255,0,255,0.5)]"></div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className="flex justify-between text-sm mb-2">
-                                        <span className="text-white">UI/UX & Accessibility</span>
-                                        <span className="text-yellow-400 font-mono">25%</span>
-                                    </div>
-                                    <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                                        <div className="h-full bg-gradient-to-r from-yellow-400 to-orange-500 w-[25%]"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="mt-8 pt-6 border-t border-white/10 text-center">
-                                <p className="text-xs text-gray-500 font-mono">JUDGING PANEL: KERALA AI MISSION LEADERSHIP</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             {/* CTA Section */}
             <section className="py-24 relative overflow-hidden flex justify-center items-center">
