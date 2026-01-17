@@ -1,16 +1,61 @@
-# React + Vite
+# Impact Hackathon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Challenge the Status Quo. Build for Good.
 
-Currently, two official plugins are available:
+Official repository for **Impact Hackathon**, a 24-hour global marathon to solve real-world challenges, organized by **μLearn CEK** (College of Engineering Kottarakkara).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About
 
-## React Compiler
+Impact Hackathon focuses on solving critical issues through technology.
+- **Dates**: January 24 & 25, 2026
+- **Location**: Commune - Work Near Home, Kottarakkara
+- **Powered By**: K-DISC
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+Built with a modern, performance-focused stack:
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏁 Getting Started
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone git@github.com:salahudheenthajudheen/impact-hackathon.git
+   ```
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+## 🏗 Scripts
+
+- `npm run dev`: Start local development server
+- `npm run build`: Build for production
+- `npm run preview`: Preview production build
+- `npm run deploy`: Deploy to GitHub Pages
+
+## 🎨 Design System
+
+- **Primary Colors**: Deep Graphite & Electric Lime
+- **Typography**: Modern Sans-Serif (Inter/Roboto)
+
+## 📄 Tracks
+
+1. **Civic Growth**: Streamline governance and improve public service delivery.
+2. **Neural Networks**: Leverage AI & ML for predictive modeling.
+
+---
+© 2026 Impact Hackathon. All rights reserved.
