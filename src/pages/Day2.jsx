@@ -98,7 +98,7 @@ function Day2() {
                         <span className="material-symbols-outlined text-fuchsia-500 text-sm">hub</span>
                         <span className="text-xs uppercase tracking-widest text-gray-300">In Partnership with Kerala AI Mission</span>
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight tracking-tight">
+                    <h1 className="text-4xl md:text-7xl font-display font-bold leading-tight tracking-tight">
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">DAY 2:</span>
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-white to-fuchsia-500" style={{ filter: 'drop-shadow(0 0 10px rgba(255,0,255,0.3))' }}>
                             AI & DATA INNOVATION

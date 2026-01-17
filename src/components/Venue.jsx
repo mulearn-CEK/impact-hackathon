@@ -31,28 +31,19 @@ function Venue() {
 
                 {/* Map Side */}
                 <div className="relative w-full h-full min-h-[400px] order-1 lg:order-2 bg-gray-900 overflow-hidden group">
-                    {/* Placeholder Map Image with Dark Mode Styling */}
-                    <div
-                        className="absolute inset-0 bg-cover bg-center opacity-60 group-hover:opacity-80 transition-opacity duration-500"
-                        style={{
-                            backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDFDrCkOiWkYo2be6HtvG5JcXtvy5leEKyp5pNcfOwzkZub4WKAi201nJJshPN0Jbtbx89Ve3NiTaWNaTNwmOstjE-EMg7XxNEz32ma4YD0y10YSD2HjtjKCQefCzOY_pCz7p9KBeVTgX5Fe0T0J9If-oDTMd4UdIlAxSkQg5jJyE7cEnPFrzQePMESq1Bjo82PilvTTdaDrhmSG8vPMV-mA6U0_GBDUExH3Y9UaOv11P0gOsQreDSalgYemCwTxVmUnTphhLQfMQ')",
-                            filter: "grayscale(100%) invert(1) contrast(1.2) brightness(0.6)"
-                        }}
-                    ></div>
+                    <iframe
+                        src="https://maps.google.com/maps?q=XQX9%2BWJ%20Kottarakkara%2C%20Kerala&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        width="100%"
+                        height="100%"
+                        style={{ border: 0, filter: 'grayscale(100%) invert(92%) contrast(83%)' }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        className="absolute inset-0 w-full h-full"
+                    ></iframe>
 
-                    {/* Decorative Map Elements */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2">
-                        <div className="relative">
-                            <div className="w-4 h-4 bg-primary rounded-full animate-ping absolute top-0 left-0"></div>
-                            <div className="w-4 h-4 bg-primary rounded-full relative z-10 border-2 border-white"></div>
-                        </div>
-                        <div className="bg-black/80 text-white text-xs px-3 py-1 rounded backdrop-blur-sm border border-gray-700">
-                            Commune WNH
-                        </div>
-                    </div>
-
-                    {/* Gradient Overlay for smooth transition */}
-                    <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#0f1113]/20 to-[#0f1113] pointer-events-none lg:block hidden"></div>
+                    {/* Gradient Overlay for seamless blend (optional, reduced opacity) */}
+                    <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#0f1113]/10 to-[#0f1113] pointer-events-none lg:block hidden"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0f1113] via-transparent to-transparent pointer-events-none lg:hidden block"></div>
                 </div>
             </div>

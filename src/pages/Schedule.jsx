@@ -24,7 +24,7 @@ function SchedulePage() {
                         <span className="material-symbols-outlined text-primary text-sm">schedule</span>
                         <span className="text-xs uppercase tracking-widest text-primary/80">Event Timeline</span>
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight tracking-tight mb-6">
+                    <h1 className="text-4xl md:text-7xl font-display font-bold leading-tight tracking-tight mb-6">
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">EVENT</span>
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-white to-fuchsia-500">SCHEDULE</span>
                     </h1>

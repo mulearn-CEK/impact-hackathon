@@ -18,7 +18,7 @@ function Hero() {
                             <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
                             <span className="text-primary text-xs font-mono tracking-widest uppercase font-bold">Innovating for Kottarakkara</span>
                         </div>
-                        <h1 className="text-5xl md:text-7xl font-display font-bold leading-[0.9] tracking-tighter text-white">
+                        <h1 className="text-4xl md:text-7xl font-display font-bold leading-[0.9] tracking-tighter text-white">
                             IMPACT <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-white">HACKATHON</span> <br />
                             SERIES

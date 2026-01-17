@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
@@ -7,9 +8,15 @@ function Header() {
     const isHome = location.pathname === '/';
     const isSchedule = location.pathname === '/schedule';
 
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
     return (
         <div className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4 pointer-events-none">
-            <nav className="pointer-events-auto flex items-center p-1.5 pl-6 pr-1.5 gap-8 max-w-4xl w-[90%] md:w-full justify-between rounded-full bg-black/60 backdrop-blur-2xl border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.5)]">
+            <nav className="pointer-events-auto flex items-center p-1.5 pl-6 pr-1.5 gap-8 max-w-4xl w-[90%] md:w-full justify-between rounded-full bg-black/60 backdrop-blur-2xl border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.5)] z-50">
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-3 shrink-0">
                     <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-primary/20 border border-primary/30">
@@ -18,7 +25,7 @@ function Header() {
                     <span className="text-sm font-bold tracking-tight text-white/90">IMPACT <span className="text-primary">HACKATHON</span></span>
                 </Link>
 
-                {/* Navigation Links */}
+                {/* Navigation Links (Desktop) */}
                 <div className="hidden md:flex items-center gap-1 text-xs font-medium text-gray-400">
                     <Link
                         to="/"
@@ -80,7 +87,7 @@ function Header() {
                     </Link>
                 </div>
 
-                {/* Register Button */}
+                {/* Register Button (Desktop) */}
                 <Link
                     to="/register"
                     className="hidden md:flex bg-primary hover:bg-primary-dark text-black text-xs font-bold py-2.5 px-5 rounded-full transition-all shadow-[0_0_20px_rgba(0,210,230,0.3)] overflow-hidden"
@@ -89,10 +96,57 @@ function Header() {
                 </Link>
 
                 {/* Mobile Menu Button */}
-                <button className="md:hidden text-white p-2">
-                    <span className="material-symbols-outlined">menu</span>
+                <button
+                    onClick={toggleMobileMenu}
+                    className="md:hidden text-white p-2 rounded-full hover:bg-white/10 transition-colors"
+                >
+                    <span className="material-symbols-outlined">{isMobileMenuOpen ? 'close' : 'menu'}</span>
                 </button>
             </nav>
+
+            {/* Mobile Menu Overlay */}
+            <div className={`fixed inset-0 bg-black/90 backdrop-blur-3xl z-40 transition-all duration-300 md:hidden flex flex-col justify-center items-center pointer-events-auto ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+                <div className="flex flex-col gap-6 w-full max-w-xs text-center">
+                    <Link
+                        to="/"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className={`text-2xl font-bold transition-colors ${isHome ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+                    >
+                        Home
+                    </Link>
+                    <Link
+                        to="/day1"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className={`text-2xl font-bold transition-colors ${isDay1 ? 'text-teal-500' : 'text-gray-400 hover:text-teal-500'}`}
+                    >
+                        Day 1: LSG
+                    </Link>
+                    <Link
+                        to="/day2"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className={`text-2xl font-bold transition-colors ${isDay2 ? 'text-fuchsia-500' : 'text-gray-400 hover:text-fuchsia-500'}`}
+                    >
+                        Day 2: AI
+                    </Link>
+                    <Link
+                        to="/schedule"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className={`text-2xl font-bold transition-colors ${isSchedule ? 'text-primary' : 'text-gray-400 hover:text-primary'}`}
+                    >
+                        Schedule
+                    </Link>
+
+                    <div className="h-px bg-white/10 w-full my-2"></div>
+
+                    <Link
+                        to="/register"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="bg-primary text-black text-lg font-bold py-4 px-8 rounded-xl shadow-[0_0_30px_rgba(0,210,230,0.3)]"
+                    >
+                        Register Now
+                    </Link>
+                </div>
+            </div>
         </div>
     );
 }

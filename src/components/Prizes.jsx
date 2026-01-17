@@ -9,7 +9,7 @@ function Prizes() {
                 </div>
 
                 {/* Podium Layout for Desktop, Stack for Mobile */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-end max-w-5xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center md:items-end max-w-5xl mx-auto">
                     {/* 2nd Place (Left) */}
                     <div className="order-2 md:order-1 flex flex-col bg-background-card border border-gray-800 rounded-2xl p-6 relative overflow-hidden group hover:border-secondary-magenta/40 transition-all duration-300 items-center text-center h-full justify-center min-h-[220px]">
                         <div className="absolute top-0 inset-x-0 h-[2px] bg-gradient-to-r from-transparent via-secondary-magenta to-transparent opacity-50"></div>

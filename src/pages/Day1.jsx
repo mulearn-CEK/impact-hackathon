@@ -98,7 +98,7 @@ function Day1() {
                         <span className="material-symbols-outlined text-green-500 text-sm">account_balance</span>
                         <span className="text-xs uppercase tracking-widest text-teal-500/80">Local Governance & Community Innovation</span>
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight tracking-tight">
+                    <h1 className="text-4xl md:text-7xl font-display font-bold leading-tight tracking-tight">
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">DAY 1:</span>
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-white to-green-500" style={{ textShadow: '0 0 15px rgba(20, 184, 166, 0.4)' }}>
                             LOCAL GOVERNANCE & COMMUNITY
