@@ -22,7 +22,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         </div>
 
         <div className="flex gap-6">
-          <a href="#" className="text-text-muted hover:text-primary transition-colors">
+          <a href="mailto:mulearn@cekottarakkara.ac.in" className="text-text-muted hover:text-primary transition-colors">
             <span className="material-symbols-outlined">alternate_email</span>
           </a>
           <a href="#" className="text-text-muted hover:text-primary transition-colors">

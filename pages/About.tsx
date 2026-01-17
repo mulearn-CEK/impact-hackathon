@@ -122,7 +122,7 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
               <p className="text-text-muted text-sm font-medium">Email our support team.</p>
             </div>
             <div className="flex flex-wrap gap-4 w-full md:w-auto">
-              <a href="mailto:support@impacthack.com" className="flex-1 md:flex-none flex items-center justify-center gap-2 text-sm font-black uppercase tracking-widest text-white hover:text-primary transition-colors px-6 h-12 rounded-xl border border-white/10 hover:bg-white/5">
+              <a href="mailto:mulearn@cekottarakkara.ac.in" className="flex-1 md:flex-none flex items-center justify-center gap-2 text-sm font-black uppercase tracking-widest text-white hover:text-primary transition-colors px-6 h-12 rounded-xl border border-white/10 hover:bg-white/5">
                 <span className="material-symbols-outlined text-xl">mail</span>
                 Email Support
               </a>
